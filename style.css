@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f5f6f7;
+  color: #1a1a1a;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.resume-container {
+  max-width: 900px;
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  border-bottom: 2px solid #0078d4;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #0078d4;
+  font-weight: 600;
+}
+
+header h2 {
+  font-size: 1.1rem;
+  color: #444;
+  margin-top: 5px;
+}
+
+.contact {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 8px;
+}
+
+.contact a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin-bottom: 25px;
+}
+
+section h3 {
+  color: #0078d4;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #333;
+}
+
+.project {
+  margin-bottom: 15px;
+}
+
+.project h4 {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.project a {
+  color: #0078d4;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+
+
